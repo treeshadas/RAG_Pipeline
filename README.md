@@ -1,19 +1,16 @@
+#Rag_based question answer API using FastAPI,LangChain,FAISS & OpenAI
 
-# RAG-Based Question Answering API using FastAPI, LangChain, FAISS & OpenAI
-
-This project builds a **Retrieval-Augmented Generation (RAG)** system that takes a question in Bengali and returns an answer based on the content of a provided PDF file.
+This project builds a Retrieval-Augmented Generation (RAG) system that takes a question in Bengali and returns an answer based on the content of a provided PDF file.
 
 It uses:
-- **FastAPI** to build the web API.
-- **LangChain** for chaining the document retriever and LLM.
-- **FAISS** for vector-based document search.
-- **OpenAI GPT** (via API key) for generating answers.
-- **PyMuPDF** or `fitz` to load PDF.
-- **Uvicorn** as the ASGI server.
+- FastAPI to build the web API.
+- LangChain for chaining the document retriever and LLM.
+- FAISS for vector-based document search.
+- OpenAI GPT (via API key) for generating answers.
+- PyMuPDF or `fitz` to load PDF.
+- Uvicorn as the ASGI server.
 
----
-
-## 🚀 How It Works
+# Working Proces 
 
 1. Loads and chunks the PDF document.
 2. Converts text chunks into vector embeddings using OpenAI.
@@ -22,7 +19,7 @@ It uses:
 
 ---
 
-## 📁 Project Structure
+#Project  Structure
 rag_basic/
 │
 ├── app.py # FastAPI app with /query endpoint
