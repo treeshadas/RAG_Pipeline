@@ -6,7 +6,7 @@ It uses:
 - FastAPI to build the web API.
 - LangChain for chaining the document retriever and LLM.
 - FAISS for vector-based document search.
-- OpenAI GPT (via API key) for generating answers.
+- OpenAI GPT (by using API key) for generating answers.
 - PyMuPDF or `fitz` to load PDF.
 - Uvicorn as the ASGI server.
 
